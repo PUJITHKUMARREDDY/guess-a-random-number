@@ -11,13 +11,48 @@
     justify-content: center;
     align-items: center;
   }
-  
   .container {
     background: #fcfff3;
     padding: 50px;
   }
-  
+  .attempts
+  {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    background-color: #454545;
+
+  }
+  .designText{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 20px;
+    right: 7%;
+    position: absolute;
+    top: 0;
+
+  }
+  .designLeftText
+  {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 20px;
+    left: 3.3%;
+    position: absolute;
+    top: 0;
+  }
+
   input {
+    
     padding: 15px;
     outline: none;
     background: #f5f9eb;
@@ -28,6 +63,7 @@
   }
   
   button {
+    
     border-radius: 100px;
     background: #454545;
     padding: 5px;
@@ -37,14 +73,36 @@
     padding: 10px 20px;
     cursor: pointer;
   }
-  
-  
-  
-  .uiDesign {
-    list-style: upper-alpha;
+  .leftAlign
+  {
     display: flex;
-    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 7%;
+    margin-top: 10px;
     align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    background-color: #454545;
+  }
+  .rightAlign
+  {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    margin-top: 10px;
+  }
+
+  .uiDesign {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    list-style: upper-alpha;
     background: #f5f9eb;
     padding: 7px 20px;
     margin: 10px;
