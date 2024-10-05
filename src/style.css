@@ -36,7 +36,7 @@
     font-size: 1.5rem;
     font-weight: bolder;
     margin-top: 20px;
-    right: 7%;
+    right: 5em;
     position: absolute;
     top: 0;
 
@@ -78,7 +78,7 @@
     display: flex;
     position: absolute;
     top: 0;
-    left: 7%;
+    left: 5em;
     margin-top: 10px;
     align-items: center;
     justify-content: center;
@@ -113,4 +113,35 @@
     padding: 5px 10px;
     cursor: pointer;
   }
+  @media only screen and (max-width: 768px) {
+    main {
+        padding: 1em;
+    }
+    section {
+        padding: 0.5em;
+    }
+    input[type="number"] {
+        font-size: 1.2em;
+    }
+    button[type="button"] {
+        padding: 0.3em 0.7em;
+    }
+    }
+    
+    /* Tablets (portrait and landscape) */
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    main {
+        padding: 2em;
+    }
+    section {
+        padding: 1em;
+    }
+    input[type="number"] {
+        font-size: 1.5em;
+    }
+    button[type="button"] {
+        padding: 0.5em 1em;
+    }
+    }
+    
   
