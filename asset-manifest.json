@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/guess-a-random-number/static/css/main.30febfa0.css",
+    "main.css": "/guess-a-random-number/static/css/main.be175cf6.css",
     "main.js": "/guess-a-random-number/static/js/main.8adc11bb.js",
     "static/js/453.79eb2ae2.chunk.js": "/guess-a-random-number/static/js/453.79eb2ae2.chunk.js",
     "index.html": "/guess-a-random-number/index.html",
-    "main.30febfa0.css.map": "/guess-a-random-number/static/css/main.30febfa0.css.map",
+    "main.be175cf6.css.map": "/guess-a-random-number/static/css/main.be175cf6.css.map",
     "main.8adc11bb.js.map": "/guess-a-random-number/static/js/main.8adc11bb.js.map",
     "453.79eb2ae2.chunk.js.map": "/guess-a-random-number/static/js/453.79eb2ae2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30febfa0.css",
+    "static/css/main.be175cf6.css",
     "static/js/main.8adc11bb.js"
   ]
 }
